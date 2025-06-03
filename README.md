@@ -7,3 +7,10 @@ Metacello new
 	baseline: 'Llm4Lsc';
 	load
 ```
+## Load Lepiter
+
+After installing with Metacello, you will be able to execute
+
+```
+#BaselineOfLlm4Lsc asClass loadLepiter
+```
