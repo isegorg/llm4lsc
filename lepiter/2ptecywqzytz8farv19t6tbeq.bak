@@ -2457,13 +2457,116 @@
 								"uidString" : "ftEh8vjyDQCOwK7EB0TlLQ=="
 							},
 							"previewHeight" : 785.1204223632813,
-							"fileName" : "attachments/2ptecyykh1rq3uxf6x5shahkl/changes-snippets-(Page 1)-GtLlmLscAssistant_adding_createAction.ombu"
+							"fileName" : "attachments/6cu6d0c4fp7sf88d3rn5c1tap/changes-snippets-(LLM for LSC)-GtLlmLscAssistant_adding_createAction.ombu"
 						},
 						{
-							"__type" : "pharoSnippet",
+							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-02T16:02:05.352331+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-02T16:02:05.352331+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "j9Eh8vjyDQCOwdf0B0TlLQ=="
+										},
+										"code" : "lscAssitant := GtLlmLscAssistant new.\rchat := lscAssitant createChat."
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-02T16:02:05.352337+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-02T16:02:05.352337+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "k9Eh8vjyDQCOwhIgB0TlLQ=="
+										},
+										"code" : "chat sendAction: (GtLlmActionCall action: 'Create a set of entities' arguments: {'we wish to model the\nbehavior of a cellular phone. One of the things we require is that when the\ncover is opened, the antenna should automatically open too.'})"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-02T16:02:05.352341+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-06T10:39:57.305109+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "l9Eh8vjyDQCOw/jGB0TlLQ=="
+										},
+										"code" : "responseLscJsonString := chat messages last contentJson at: 'Lsc'.\rGtLscParser parse: responseLscJsonString"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -2473,7 +2576,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352331+02:00"
+									"dateAndTimeString" : "2025-06-06T12:15:27.670287+02:00"
 								}
 							},
 							"editEmail" : {
@@ -2484,82 +2587,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352331+02:00"
+									"dateAndTimeString" : "2025-06-06T12:16:07.501208+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "j9Eh8vjyDQCOwdf0B0TlLQ=="
+								"uidString" : "bCMDP0bzDQCX8paSD/Reaw=="
 							},
-							"code" : "lscAssitant := GtLlmLscAssistant new.\rchat := lscAssitant createChat."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
+							"paragraphStyle" : {
+								"__type" : "textStyle"
 							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352337+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352337+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "k9Eh8vjyDQCOwhIgB0TlLQ=="
-							},
-							"code" : "chat sendAction: (GtLlmActionCall action: 'Create a set of entities' arguments: {'we wish to model the\nbehavior of a cellular phone. One of the things we require is that when the\ncover is opened, the antenna should automatically open too.'})"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352341+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352341+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "l9Eh8vjyDQCOw/jGB0TlLQ=="
-							},
-							"code" : "lscJson := \r'{\r\t\"title\":\"Título\",\r\t\"instances\":[\r\t\t{\r\t\t\t\"name\": \"New Instance\",\r\t\t\t\"temperature\": \"GtLscColdTemperature\"\r\t\t},\r\t\t{}\r\t]}'.\rNeoJSONReader fromString: lscJson."
+							"string" : "LLM for LSC playground examples"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -2912,12 +2950,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-02T16:05:59.294773+02:00"
+			"dateAndTimeString" : "2025-06-02T16:06:11.827365+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Llm for Lsc"
+		"title" : "LLM for LSC"
 	},
 	"uid" : {
 		"__type" : "uuid",

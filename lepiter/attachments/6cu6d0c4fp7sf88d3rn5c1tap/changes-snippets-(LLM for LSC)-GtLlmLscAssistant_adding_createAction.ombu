@@ -1,0 +1,41 @@
+OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#time : DateAndTime [ '2025-06-06T12:13:38.802034+02:00' ],
+		#prior : OmReference [ '0' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #GtLlmLscAssistant,
+				#isMetaSide : false
+			},
+			#name : #createAction,
+			#protocol : #actions,
+			#sourceCode : 'createAction\r\t<gtLlmAssistantAction>\r\t^ GtLlmAssistantAction new\r\t\tname: \'Create a set of entities\';\r\t\tpriority: 1;\r\t\tdescription: \'Creates lsc based on a given topic, filling topic, entities, actions and attributes..\';\r\t\taddArgument: \'NodeName\'',
+			#stamp : 'GlamorousAuthor 6/6/2025 11:13',
+			#package : #Gt4Llm
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'GlamorousAuthor',
+		#time : DateAndTime [ '2025-06-06T12:13:38.802034+02:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #GtLlmLscAssistant,
+				#isMetaSide : false
+			},
+			#name : #lscFormatDescription,
+			#protocol : #formats,
+			#sourceCode : 'lscFormatDescription\r\t<gtLlmAssistantFormat>\r\t^ GtLlmAssistantFormatDescription new\r\t\tname: \'Lsc\';\r\t\tpriority: 2;\r\t\tformat: (\'Lsc language with the response in JSON format following the schema {schema}\' format: (Dictionary with: #schema -> GtLscModel jsonSchemaString));\r\t\texample: \'\'" \'```\rstyle lsc\r\rentity User [1]\r\rentity MainSwitch [2] Attributes: state (ON/OFF)\r\rentity MainLight [3] Attributes: state (ON/OFF)\r\rentity ConsoleDisplay [4] Attributes: color (e.g., GREEN, OFF/BLACK), message (string, optional)\r\raction Click(ON) [User , MainSwith]\r\raction Turn(ON) [MainLight]\r\raction Change Background(GREEN) [ConsoleDisplay]\r\r\r```\'"',
+			#stamp : 'GlamorousAuthor 6/6/2025 11:13',
+			#package : #Gt4Llm
+		}
+	}
+}
