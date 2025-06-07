@@ -10,40 +10,6 @@
 					"__type" : "snippets",
 					"items" : [
 						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352281+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352281+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Y9Eh8vjyDQCOv10fB0TlLQ=="
-							},
-							"code" : "GtLlmAssistant subclass: #GtLlmLscAssistant\r\tinstanceVariableNames: ''\r\tclassVariableNames: ''\r\tpackage: 'Gt4Llm'."
-						},
-						{
 							"__type" : "changesSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -57,7 +23,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352307+02:00"
+									"dateAndTimeString" : "2025-06-07T10:05:48.449875+02:00"
 								}
 							},
 							"editEmail" : {
@@ -68,15 +34,15 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-02T16:02:05.352307+02:00"
+									"dateAndTimeString" : "2025-06-07T10:05:48.449875+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "ftEh8vjyDQCOwK7EB0TlLQ=="
+								"uidString" : "OgktjVjzDQCHQNH5DaIPkg=="
 							},
-							"previewHeight" : 785.1204223632813,
-							"fileName" : "attachments/6cu6d0c4fp7sf88d3rn5c1tap/changes-snippets-(LLM for LSC)-GtLlmLscAssistant_adding_createAction.ombu"
+							"previewHeight" : 818.0,
+							"fileName" : "attachments/8naqaslg8894hfzs62bb8pbiu/changes-snippets-(Lsc Scenario Context Menu with LLM)-GtLscScenarioElement_adding_contextMenuWithLlmAction.ombu"
 						}
 					]
 				},
@@ -88,7 +54,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-02T16:02:05.352203+02:00"
+						"dateAndTimeString" : "2025-06-07T10:04:07.562253+02:00"
 					}
 				},
 				"editEmail" : {
@@ -99,17 +65,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-07T10:13:08.324507+02:00"
+						"dateAndTimeString" : "2025-06-07T10:05:16.957563+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "LtEh8vjyDQCOvrPcB0TlLQ=="
+					"uidString" : "c1aMn0jzDQChQVrVCeM75Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Create a custom {{gtClass:GtLlmAssistant}} for LSC"
+				"string" : "We create a context menu for {{gtClass:GtLscDescriptionEditor}} to generate a {{gtClass:GtLscModel}} from its content."
 			}
 		]
 	},
@@ -121,7 +87,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-02T16:01:26.700761+02:00"
+			"dateAndTimeString" : "2025-06-06T15:06:05.598888+02:00"
 		}
 	},
 	"editEmail" : {
@@ -132,15 +98,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-02T16:06:11.827365+02:00"
+			"dateAndTimeString" : "2025-06-06T15:06:05.598888+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "LLM for LSC"
+		"title" : "Lsc Scenario Context Menu with LLM"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "0209d4ef-f8f2-0d00-8e8a-13000744e52d"
+		"uuid" : "69058c9f-48f3-0d00-a140-de4009e33be5"
 	}
 }
