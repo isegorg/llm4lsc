@@ -1,0 +1,323 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T11:58:55.750431+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:34:09.298376+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kWm+SyP0DQC+kEomDivQVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "In order to achieve explanations for the LSC chart generated we need to extend the action's instructions requested to the LLM:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T11:59:48.697927+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-20T13:09:40.519647+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RbBMTyP0DQCCJnxqDivQVA=="
+				},
+				"code" : "GtLlmLscAssistant\r\tcompileSilently: '\rcreateAction\r\t<gtLlmAssistantAction>\r\t^ GtLlmAssistantAction new\r\t\tname: ''Create a set of entities'';\r\t\tpriority: 1;\r\t\tdescription: ''Creates an LSC based on a given scenario description, filling its title, instances and messages. Also provide a collection of explanations of the LSC, that are links between word(s) in the scenario description and the corresponding LSC element (instance or message). For each explanation, provide the starting and ending position of the word(s) inside the scenario description text, taken the first character as number 1.'';\r\t\taddArgument: ''NodeName''\r'\r\tclassified: 'actions'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:34:13.180582+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:34:41.117252+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OS1ayiP0DQCKnPR3DivQVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "And the format requested for the generated LSC:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:34:46.25521+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:51:25.410255+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+t9SzCP0DQCL+oZCDivQVA=="
+				},
+				"code" : "GtLlmLscAssistant compileSilently: '\rlscFormatDescription\r\t<gtLlmAssistantFormat>\r\t^ GtLlmAssistantFormatDescription new\r\t\tname: ''Lsc'';\r\t\tpriority: 2;\r\t\tformat: ''',\r\t\t('Lsc language with the response in JSON format following the schema: {schema}' format: (Dictionary with: #schema -> GtLscModel jsonSchemaString)) ,\r\t\t''';\r\t\texample: '''' \r'\rclassified: 'formats'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-18T10:24:37.232185+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-18T10:25:14.511811+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Dc1sGDb0DQCYPAsACjH8eg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Finally, it's required to update the action's callback that is parsing the LLM response:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-18T10:25:17.747965+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-20T13:13:29.139244+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "bjsgGzb0DQCbERbrCjH8eg=="
+				},
+				"code" : "GtLscScenarioElement\r\tcompileSilently: '\raddDescriptionContextMenu\r\tself descriptionElement\r\t\taddAptitude: ((BrGlamorousWithExplicitContextMenuAptitude\r\t\t\t\thandle: [ GtLscConstants contextMenuHandler ]\r\t\t\t\tcontent: [ BrButton new\r\t\t\t\t\t\tfitContent;\r\t\t\t\t\t\taptitude: BrGlamorousButtonWithIconAptitude;\r\t\t\t\t\t\tbeSmallSize;\r\t\t\t\t\t\tmargin: (BlInsets\r\t\t\t\t\t\t\t\ttop: 0\r\t\t\t\t\t\t\t\tleft: 3\r\t\t\t\t\t\t\t\tbottom: 3\r\t\t\t\t\t\t\t\tright: 3);\r\t\t\t\t\t\ticon: BrGlamorousIcons play;\r\t\t\t\t\t\tid: #llm;\r\t\t\t\t\t\taction: [  \"size: 100@100;\"| lscAssitant chat |\r\t\t\t\t\t\t\tlscAssitant := GtLlmLscAssistant new.\r\t\t\t\t\t\t\tchat := lscAssitant createChat.\r\t\t\t\t\t\t\tchat\r\t\t\t\t\t\t\t\tsendAction: (GtLlmActionCall\r\t\t\t\t\t\t\t\t\t\taction: ''Create a set of entities''\r\t\t\t\t\t\t\t\t\t\targuments: {self descriptionElement text asString})\r\t\t\t\t\t\t\t\tonAnswer: [ :aMessage | \r\t\t\t\t\t\t\t\t\t| newScenarioModel |\r\t\t\t\t\t\t\t\t\tTranscript crShow: (aMessage contentJson at: ''Lsc'').\r\t\t\t\t\t\t\t\t\tnewScenarioModel := GtLscParser parse: (aMessage contentJson at: ''Lsc'').\r\t\t\t\t\t\t\t\t\tnewScenarioModel description: self descriptionElement text asString.\r\t\t\t\t\t\t\t\t\tself scenario: newScenarioModel\r\t\t\t\t\t\t\t\t ] \r\t\t\t\t\t\t] \r\t\t\t\t])\r\t\t\t\tpreferredExtent: GtLscConstants contextMenuPreferredExtent)'\r\tclassified: '*Llm4Lsc'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:46:40.617089+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:59:09.324906+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "v+qm9iP0DQCOCiu0DivQVA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Now we can check that the LLM response includes the expected explanations:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-17T12:47:08.047363+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-20T13:07:56.998264+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "A7qJ+CP0DQCPx1JRDivQVA=="
+				},
+				"code" : "bakeryScenario := 'The owner of the bakery, wants to automate the bakery by adding a bakery panel that will control and monitor the three ovens. The panel has a main switch and a main light. Also there is a console display, which is used to show textual messages.\r\rThe first scenario ''Panel On'' consist of the user clicks the main switch, then the main light is turn on and the console''s background color changes to green.'.\r\rGtLscScenarioModel new\r\tdescription: bakeryScenario;\r\tyourself"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-06-17T11:58:49.015444+02:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2025-06-18T10:48:02.538647+02:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Add explanations to the generated LSC"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "8903be4b-23f4-0d00-be8f-77c50e2bd054"
+	}
+}

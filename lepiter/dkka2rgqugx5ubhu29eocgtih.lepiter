@@ -65,7 +65,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-07T10:05:16.957563+02:00"
+						"dateAndTimeString" : "2025-06-17T13:21:47.834128+02:00"
 					}
 				},
 				"uid" : {
@@ -75,7 +75,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We create a context menu for {{gtClass:GtLscDescriptionEditor}} to generate a {{gtClass:GtLscModel}} from its content."
+				"string" : "\t\tWe create a context menu for {{gtClass:GtLscDescriptionEditor}} to generate a {{gtClass:GtLscModel}} from its content."
 			}
 		]
 	},
